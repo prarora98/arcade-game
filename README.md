@@ -1,6 +1,23 @@
-frontend-nanodegree-arcade-game
+# Udacity Classic Arcade Game Clone Project by Prateek
 ===============================
+## Intro
+This is a Classic Arcade Game. 
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+## Rules of Game
+---
+* In this game we need to cross the stony street carefully avoiding the bugs and reach to the river.
+* If we reach to the river score will increase by 100 and player will return back to it's default position.
+* If you collide with any of the running bugs you will lose one life, by default you have three lives.
+* There is a timer on the bottom of the game screen, after the game ended it will show you your score(s) and playing time.
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+## Keyboard Controls
+
+* Press **Up Arrow** key to go to up.
+* Press **Down Arrow** key to to down.
+* Press **Left Arrow** key to go to left.
+* Press **Right Arrow** key to go to right.
+
+## Technologies and Dependencies
+* HTML5 (Canvas)
+* CSS3
+* JavaScript
